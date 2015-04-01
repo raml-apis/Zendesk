@@ -21,7 +21,7 @@ CLIENT_SECRET = prompt("Please, enter Secret of your Zendesk client.")
 ```
 
 ```javascript
-API.createClient('client', '/apiplatform/repository/public/organizations/30/apis/8077/versions/8266/definition',{
+API.createClient('client', '#REF_TAG_DEFENITION',{
   baseUriParameters: {
     domain: DOMAIN,
     version: 'v2'

@@ -21,7 +21,7 @@ CLIENT_SECRET = prompt("Please, enter Secret of your Zendesk client.")
 ```
 
 ```javascript
-API.createClient('client', '/apiplatform/repository/public/organizations/30/apis/8077/versions/8266/definition',{
+API.createClient('client', '#REF_TAG_DEFENITION',{
   baseUriParameters: {
     domain: DOMAIN,
     version: 'v2'
@@ -45,7 +45,7 @@ API.authenticate(client,"oauth_2_0",{
 Crete twitter client
 
 ```javascript
-API.createClient('twitterClient', '/apiplatform/repository/public/organizations/30/apis/8026/versions/8192/definition');
+API.createClient('twitterClient', '#REF_TAG_DEFENITION_Twitter API:');
 ```
 
 ```javascript

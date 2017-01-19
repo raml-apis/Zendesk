@@ -2,6 +2,9 @@
 title: Zendesk
 version: v2
 baseUri: https://{domain}.zendesk.com/api/{version}
+baseUriParameters:
+  domain:
+    description: Provide your Zendesk domain name
 securitySchemes:
   - oauth_2_0: !include securitySchemes/oauth_2_0.raml
   - basic: !include securitySchemes/basic.raml
